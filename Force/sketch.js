@@ -4,11 +4,11 @@ let attractors = [];
 function setup() {
   createCanvas(600, 600);
 
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 500; i++) {
     movers[i] = new Agent(random(width / 2), random(height / 2), 1);
   }
 
-  attractors[0] = new Attractor(width / 2, height / 2, 1000);
+  attractors[0] = new Attractor(width / 2, height / 2, 500);
 }
 
 function draw() {

@@ -6,11 +6,12 @@ let x, y;
 let a = 0;
 
 function setup() {
-  createCanvas(600, 600);
+  let canvas = createCanvas(600, 600);
+  canvas.addClass("canvas01");
 }
 
 function draw() {
-  background(51, 100);
+  background(0, 50);
   noStroke();
 
   a += 0.025;
